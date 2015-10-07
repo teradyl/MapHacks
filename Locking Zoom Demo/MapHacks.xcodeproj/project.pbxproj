@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		227E30261BC5167100FCED25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 227E30251BC5167100FCED25 /* main.m */; };
+		227E30291BC5167100FCED25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 227E30281BC5167100FCED25 /* AppDelegate.m */; };
+		227E302C1BC5167100FCED25 /* GMapsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 227E302B1BC5167100FCED25 /* GMapsController.m */; };
+		227E302F1BC5167100FCED25 /* MKMapKitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 227E302E1BC5167100FCED25 /* MKMapKitController.m */; };
+		227E30321BC5167100FCED25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 227E30301BC5167100FCED25 /* Main.storyboard */; };
+		227E30341BC5167100FCED25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 227E30331BC5167100FCED25 /* Images.xcassets */; };
+		227E30371BC5167100FCED25 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 227E30351BC5167100FCED25 /* LaunchScreen.xib */; };
+		227E30431BC5167100FCED25 /* MapHacksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 227E30421BC5167100FCED25 /* MapHacksTests.m */; };
+		22C94D371BC5773A007844B2 /* GMSMapView+DHLockingZoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C94D341BC5773A007844B2 /* GMSMapView+DHLockingZoom.m */; };
+		22C94D381BC5773A007844B2 /* MKMapView+DHLockingZoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C94D361BC5773A007844B2 /* MKMapView+DHLockingZoom.m */; };
+		2A0DAB3F321F6ABFFEA8B3E2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C237DF2ABAD5C36B068745C8 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		227E303D1BC5167100FCED25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 227E30181BC5167100FCED25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 227E301F1BC5167100FCED25;
+			remoteInfo = MapHacks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19D34295524D72B8A17B90B1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		227E30201BC5167100FCED25 /* MapHacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapHacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		227E30241BC5167100FCED25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		227E30251BC5167100FCED25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		227E30271BC5167100FCED25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		227E30281BC5167100FCED25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		227E302A1BC5167100FCED25 /* GMapsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMapsController.h; sourceTree = "<group>"; };
+		227E302B1BC5167100FCED25 /* GMapsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMapsController.m; sourceTree = "<group>"; };
+		227E302D1BC5167100FCED25 /* MKMapKitController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKMapKitController.h; sourceTree = "<group>"; };
+		227E302E1BC5167100FCED25 /* MKMapKitController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKMapKitController.m; sourceTree = "<group>"; };
+		227E30311BC5167100FCED25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		227E30331BC5167100FCED25 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		227E30361BC5167100FCED25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		227E303C1BC5167100FCED25 /* MapHacksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapHacksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		227E30411BC5167100FCED25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		227E30421BC5167100FCED25 /* MapHacksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapHacksTests.m; sourceTree = "<group>"; };
+		22C94D331BC5773A007844B2 /* GMSMapView+DHLockingZoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GMSMapView+DHLockingZoom.h"; path = "../../Locking Zoom Categories/GMSMapView+DHLockingZoom.h"; sourceTree = "<group>"; };
+		22C94D341BC5773A007844B2 /* GMSMapView+DHLockingZoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "GMSMapView+DHLockingZoom.m"; path = "../../Locking Zoom Categories/GMSMapView+DHLockingZoom.m"; sourceTree = "<group>"; };
+		22C94D351BC5773A007844B2 /* MKMapView+DHLockingZoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MKMapView+DHLockingZoom.h"; path = "../../Locking Zoom Categories/MKMapView+DHLockingZoom.h"; sourceTree = "<group>"; };
+		22C94D361BC5773A007844B2 /* MKMapView+DHLockingZoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MKMapView+DHLockingZoom.m"; path = "../../Locking Zoom Categories/MKMapView+DHLockingZoom.m"; sourceTree = "<group>"; };
+		C237DF2ABAD5C36B068745C8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB35950B9F14888E5848FBB3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		227E301D1BC5167100FCED25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0DAB3F321F6ABFFEA8B3E2 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227E30391BC5167100FCED25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		227E30171BC5167100FCED25 = {
+			isa = PBXGroup;
+			children = (
+				227E30221BC5167100FCED25 /* MapHacks */,
+				227E303F1BC5167100FCED25 /* MapHacksTests */,
+				227E30211BC5167100FCED25 /* Products */,
+				6C0724EA5B28D6787B135F6A /* Pods */,
+				59EB2E62F6644167E55B160D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		227E30211BC5167100FCED25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				227E30201BC5167100FCED25 /* MapHacks.app */,
+				227E303C1BC5167100FCED25 /* MapHacksTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		227E30221BC5167100FCED25 /* MapHacks */ = {
+			isa = PBXGroup;
+			children = (
+				227E304C1BC5174E00FCED25 /* Categories */,
+				227E30271BC5167100FCED25 /* AppDelegate.h */,
+				227E30281BC5167100FCED25 /* AppDelegate.m */,
+				227E302A1BC5167100FCED25 /* GMapsController.h */,
+				227E302B1BC5167100FCED25 /* GMapsController.m */,
+				227E302D1BC5167100FCED25 /* MKMapKitController.h */,
+				227E302E1BC5167100FCED25 /* MKMapKitController.m */,
+				227E30301BC5167100FCED25 /* Main.storyboard */,
+				227E30331BC5167100FCED25 /* Images.xcassets */,
+				227E30351BC5167100FCED25 /* LaunchScreen.xib */,
+				227E30231BC5167100FCED25 /* Supporting Files */,
+			);
+			path = MapHacks;
+			sourceTree = "<group>";
+		};
+		227E30231BC5167100FCED25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				227E30241BC5167100FCED25 /* Info.plist */,
+				227E30251BC5167100FCED25 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		227E303F1BC5167100FCED25 /* MapHacksTests */ = {
+			isa = PBXGroup;
+			children = (
+				227E30421BC5167100FCED25 /* MapHacksTests.m */,
+				227E30401BC5167100FCED25 /* Supporting Files */,
+			);
+			path = MapHacksTests;
+			sourceTree = "<group>";
+		};
+		227E30401BC5167100FCED25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				227E30411BC5167100FCED25 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		227E304C1BC5174E00FCED25 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				22C94D331BC5773A007844B2 /* GMSMapView+DHLockingZoom.h */,
+				22C94D341BC5773A007844B2 /* GMSMapView+DHLockingZoom.m */,
+				22C94D351BC5773A007844B2 /* MKMapView+DHLockingZoom.h */,
+				22C94D361BC5773A007844B2 /* MKMapView+DHLockingZoom.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		59EB2E62F6644167E55B160D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C237DF2ABAD5C36B068745C8 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C0724EA5B28D6787B135F6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB35950B9F14888E5848FBB3 /* Pods.debug.xcconfig */,
+				19D34295524D72B8A17B90B1 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		227E301F1BC5167100FCED25 /* MapHacks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 227E30461BC5167100FCED25 /* Build configuration list for PBXNativeTarget "MapHacks" */;
+			buildPhases = (
+				C724F79B5DA4C35140852D18 /* Check Pods Manifest.lock */,
+				227E301C1BC5167100FCED25 /* Sources */,
+				227E301D1BC5167100FCED25 /* Frameworks */,
+				227E301E1BC5167100FCED25 /* Resources */,
+				4FE91461D3DD2251565C0C81 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapHacks;
+			productName = MapHacks;
+			productReference = 227E30201BC5167100FCED25 /* MapHacks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		227E303B1BC5167100FCED25 /* MapHacksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 227E30491BC5167100FCED25 /* Build configuration list for PBXNativeTarget "MapHacksTests" */;
+			buildPhases = (
+				227E30381BC5167100FCED25 /* Sources */,
+				227E30391BC5167100FCED25 /* Frameworks */,
+				227E303A1BC5167100FCED25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				227E303E1BC5167100FCED25 /* PBXTargetDependency */,
+			);
+			name = MapHacksTests;
+			productName = MapHacksTests;
+			productReference = 227E303C1BC5167100FCED25 /* MapHacksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		227E30181BC5167100FCED25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Dylan Harris";
+				TargetAttributes = {
+					227E301F1BC5167100FCED25 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					227E303B1BC5167100FCED25 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 227E301F1BC5167100FCED25;
+					};
+				};
+			};
+			buildConfigurationList = 227E301B1BC5167100FCED25 /* Build configuration list for PBXProject "MapHacks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 227E30171BC5167100FCED25;
+			productRefGroup = 227E30211BC5167100FCED25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				227E301F1BC5167100FCED25 /* MapHacks */,
+				227E303B1BC5167100FCED25 /* MapHacksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		227E301E1BC5167100FCED25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227E30321BC5167100FCED25 /* Main.storyboard in Resources */,
+				227E30371BC5167100FCED25 /* LaunchScreen.xib in Resources */,
+				227E30341BC5167100FCED25 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227E303A1BC5167100FCED25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FE91461D3DD2251565C0C81 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C724F79B5DA4C35140852D18 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		227E301C1BC5167100FCED25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C94D381BC5773A007844B2 /* MKMapView+DHLockingZoom.m in Sources */,
+				22C94D371BC5773A007844B2 /* GMSMapView+DHLockingZoom.m in Sources */,
+				227E302F1BC5167100FCED25 /* MKMapKitController.m in Sources */,
+				227E30291BC5167100FCED25 /* AppDelegate.m in Sources */,
+				227E302C1BC5167100FCED25 /* GMapsController.m in Sources */,
+				227E30261BC5167100FCED25 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227E30381BC5167100FCED25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227E30431BC5167100FCED25 /* MapHacksTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		227E303E1BC5167100FCED25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 227E301F1BC5167100FCED25 /* MapHacks */;
+			targetProxy = 227E303D1BC5167100FCED25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		227E30301BC5167100FCED25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				227E30311BC5167100FCED25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		227E30351BC5167100FCED25 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				227E30361BC5167100FCED25 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		227E30441BC5167100FCED25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		227E30451BC5167100FCED25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		227E30471BC5167100FCED25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB35950B9F14888E5848FBB3 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(PODS_ROOT)/GoogleMaps/Frameworks\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MapHacks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		227E30481BC5167100FCED25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19D34295524D72B8A17B90B1 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(PODS_ROOT)/GoogleMaps/Frameworks\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MapHacks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		227E304A1BC5167100FCED25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MapHacksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapHacks.app/MapHacks";
+			};
+			name = Debug;
+		};
+		227E304B1BC5167100FCED25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MapHacksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapHacks.app/MapHacks";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		227E301B1BC5167100FCED25 /* Build configuration list for PBXProject "MapHacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227E30441BC5167100FCED25 /* Debug */,
+				227E30451BC5167100FCED25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		227E30461BC5167100FCED25 /* Build configuration list for PBXNativeTarget "MapHacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227E30471BC5167100FCED25 /* Debug */,
+				227E30481BC5167100FCED25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		227E30491BC5167100FCED25 /* Build configuration list for PBXNativeTarget "MapHacksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227E304A1BC5167100FCED25 /* Debug */,
+				227E304B1BC5167100FCED25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 227E30181BC5167100FCED25 /* Project object */;
+}

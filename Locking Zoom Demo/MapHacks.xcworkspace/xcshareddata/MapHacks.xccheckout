@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E03D30E7-33C4-4DDB-9260-C20102CD93C4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MapHacks</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3CEB4F835A21EBD4479A3D5D37C9AED24E9303CD</key>
+		<string>github.com:teradyl/MapHacks.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Locking Zoom Demo/MapHacks.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3CEB4F835A21EBD4479A3D5D37C9AED24E9303CD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:teradyl/MapHacks.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3CEB4F835A21EBD4479A3D5D37C9AED24E9303CD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3CEB4F835A21EBD4479A3D5D37C9AED24E9303CD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MapHacks</string>
+		</dict>
+	</array>
+</dict>
+</plist>
