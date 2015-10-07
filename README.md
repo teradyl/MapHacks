@@ -21,3 +21,6 @@ These categories will lock zoom to the center of the screen and give you a few r
     [self.mapView enableLockingZoom];
     
 
+##
+
+You might need to get an API key to get the demo to work for Google Maps. Find out here: https://developers.google.com/maps/documentation/ios-sdk/start
