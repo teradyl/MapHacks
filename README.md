@@ -2,7 +2,7 @@
 Some convenience categories for Apple &amp; Google map sdks
 
 ## Locking zoom categories
-This category will lock zoom to the center of the screen and give you a few response blocks when gestures finish.
+These categories will lock zoom to the center of the screen and give you a few response blocks when gestures finish.
 
 ### Apple's MKMapKit
 
