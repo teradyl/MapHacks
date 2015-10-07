@@ -1,7 +1,8 @@
 # MapHacks for iOS
 Some convenience categories for Apple &amp; Google map sdks
 
-## Locking zoom categories with more granular gesture response blocks.
+## Locking zoom categories
+This category will lock zoom to the center of the screen and give you a few response blocks when gestures finish.
 
 ### Apple's MKMapKit
 
